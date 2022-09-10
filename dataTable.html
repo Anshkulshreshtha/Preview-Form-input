@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- style & Bootstrap link -->
+
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap5.min.css">
+<!-- script LINKS -->
+   <script src="https://code.jquery.com/jquery-3.5.1.js"</script>
+   <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"</script>
+   <title>Data table</title>
+  </head>
+  <body class="container pt-3">
+    <h1 style="font-family: emoji">Data Table:</h1><br>
+    <table id="mytable" class="table table-striped">
+      <tbody>
+        <thead>
+          <tr>
+            <th>Inputs</th>
+            <th>Values</th>
+          </tr>
+        </thead>
+        <tr>
+          <td>First Name:</td>
+          <td><span id="firstname"></span></td>
+        </tr>
+        <tr>
+          <td>Last Name:</td>
+          <td><span id="lastname"></span></td>
+        </tr>
+        <tr>
+          <td>Email:</td>
+          <td><span id="inpEmail"></span></td>
+        </tr>
+        <tr>
+          <td>Password:</td>
+          <td><span id="inpPassword"></span></td>
+        </tr>
+        <tr>
+          <td>Phone:</td>
+          <td><span id="inpPhone"></span></td>
+        </tr>
+        <tr>
+          <td>Current Address:</td>
+          <td><span id="inpAdd1"></span></td>
+        </tr>
+        <tr>
+          <td>Permanent Address:</td>
+          <td><span id="inpAdd2"></span></td>
+        </tr>
+        <tr>
+          <td>Comment:</td>
+          <td><span id="inpComment"></span></td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <div class="d-grid col-6 mt-5 mb-3 mx-auto g-2">
+      <button type="submit" href="index.html" class="btn btn-primary">Back to form</button>
+    </div>
+
+  <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
